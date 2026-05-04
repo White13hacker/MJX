@@ -1,0 +1,73 @@
+/* Responsiveness */
+@media only screen and (min-width: 480px) {
+  body {
+    background-color: #000;
+    color: aliceblue;
+  }
+}
+@media only screen and (min-width: 630px) {
+  body {
+    background-color: #0a0000;
+    color: aliceblue;
+  }
+}
+@media only screen and (min-width: 1020px) {
+  body {
+    background-color: #1b1b1b;
+    color: aliceblue;
+  }
+}
+/* BACKGROUND IMAGE */
+.heading {
+    background-image: url(../Images/mjx-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo {
+    width: 80px;
+    height: auto;
+}
+.logo-text {
+    font-size: 8px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navs {
+    display: flex;
+}
+.nav {
+    list-style: none;
+    padding: 20px;
+}
+.navlinks {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+}
+.hero {
+  height: 100%;
+  margin: 0;
+  font-family:
+    Inter,
+    Segoe UI,
+    Roboto,
+    Arial,
+    sans-serif;
+  background: var(--bg);
+  color: #fff;
+  margin: 0 40px;
+}
+.hero-sub {
+  color: var(--muted);
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.logo-explanation {
+    display: flex;
+    padding: 10px;
+}
